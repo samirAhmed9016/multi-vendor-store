@@ -42,6 +42,9 @@ class ProfileController extends Controller
         $user = $request->user();
 
 
+        // echo'samir';
+
+
 
         $user->profile->fill($request->all())->save();
 
